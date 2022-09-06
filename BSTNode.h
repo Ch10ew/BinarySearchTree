@@ -278,6 +278,9 @@ bool BSTNode<T>::insert(T data)
         {
             currentVertex->right = newVertex;
         }
+        
+        newVertex->parent = currentVertex;
+        
         return true;
     }
 

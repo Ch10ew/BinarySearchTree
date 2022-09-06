@@ -1,5 +1,5 @@
-#ifndef BT_NODE_H
-#define BT_NODE_H
+#ifndef BST_NODE_H
+#define BST_NODE_H
 
 #include <stack>
 #include <vector>
@@ -529,4 +529,4 @@ BSTNode<T>* BSTNode<T>::cloneRecursive(BSTNode<T>* root)
     return rootCopy;
 }
 
-#endif // BT_NODE_H
+#endif // BST_NODE_H
